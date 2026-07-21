@@ -12,6 +12,7 @@
                 "-DNDEBUG",
                 "-pedantic-errors",
                 "-Werror",
+                "-std=c++23",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
